@@ -1,0 +1,63 @@
+label {
+    display: block;
+    margin: .5em 1em 1em .25em;
+}
+
+input {
+  margin-right: .5em;
+}
+
+button:focus {outline:0;}
+
+.radioManager {
+    display: flex;
+    flex-wrap: wrap;
+    width: 390px;
+}
+
+.radioContainer {
+  width: 70;
+  margin: 15px 15px 15px 15px;
+  border: 2px solid dimgray;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.valueDisplay {
+  width: 220px;
+  margin: 15px 15px 15px 15px;
+  border: 2px solid dimgray;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.valueLabel {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+
+.selectedValue {
+  font-size: 3em;
+  color: grey;
+}
+
+.resetContainer {
+  width: 353px;
+  margin: 0px 15px 15px 15px;
+}
+
+.resetButton {
+  width: 100%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: silver;
+  border: 2px solid dimgray;
+  border-radius: 10px
+}
+
+.resetButton:hover {
+  color:whitesmoke;
+  background-color: dimgrey;
+}
